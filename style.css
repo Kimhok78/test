@@ -136,9 +136,4 @@ footer{
 footer a{
   color: white;
 }
-@media (min-width: 1200px) {
-  body {
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(16, 199, 235);
-  }
+
