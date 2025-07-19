@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+ background-color: darkgray;
+ font-family: 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 20px;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    color: gray;
+}
+button:hover{
+    color: beige;
+    background-color: green;
+}
+.info{
+    padding: 20px;
+    box-shadow: 10px 10px 20px ;
+    background-color: aliceblue;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.info ul li{
+    font-size: 20px;
+}
+.info h2{
+    color: blue;
+}
+ #exp{
+    text-align: center;
+    font-weight: bold;
+}
+.img{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+.img img{
+    height: auto;
+    width: 200px;
+    justify-content: center;
+    border: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f1;
+    /* Light green background */
+    margin: 0;
+    padding: 20px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #cfe2d2;
+    /* Light green table background */
+}
+
+.styled-table thead {
+    background-color: #4caf50;
+    /* Dark green header */
+    color: white;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr.highlight {
+    background-color: #ffa500;
+    /* Orange highlight for specific row */
+    color: white;
+}
+
+.styled-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.styled-table th {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-box {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.contact-box h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-box p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+.contact-box strong {
+    color: #000;
+}
+footer{
+  justify-content: center;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+footer a{
+  color: white;
+}
